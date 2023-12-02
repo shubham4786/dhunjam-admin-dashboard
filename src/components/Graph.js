@@ -26,6 +26,7 @@ const Graph = ({ customAmount, regularAmounts }) => {
         <div>
           <div
             style={{
+              maxHeight: "200px",
               height: customAmount,
               width: "50px",
               backgroundColor: "#F0C3F1",
@@ -37,6 +38,7 @@ const Graph = ({ customAmount, regularAmounts }) => {
         <div>
           <div
             style={{
+              maxHeight: "200px",
               height:
                 (regularAmounts.category_7 / totalRegularAmounts) * 100 + "px",
               width: "50px",
@@ -49,6 +51,7 @@ const Graph = ({ customAmount, regularAmounts }) => {
         <div>
           <div
             style={{
+              maxHeight: "200px",
               height:
                 (regularAmounts.category_8 / totalRegularAmounts) * 100 + "px",
               width: "50px",
@@ -61,6 +64,7 @@ const Graph = ({ customAmount, regularAmounts }) => {
         <div>
           <div
             style={{
+              maxHeight: "200px",
               height:
                 (regularAmounts.category_9 / totalRegularAmounts) * 100 + "px",
               width: "50px",
@@ -73,6 +77,7 @@ const Graph = ({ customAmount, regularAmounts }) => {
         <div>
           <div
             style={{
+              maxHeight: "200px",
               height:
                 (regularAmounts.category_10 / totalRegularAmounts) * 100 + "px",
               width: "50px",
